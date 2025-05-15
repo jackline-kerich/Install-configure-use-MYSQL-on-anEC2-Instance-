@@ -31,9 +31,9 @@ Step 1: Launch EC2 Instance**
 2. Navigate to **EC2** → **Instances** → **Launch Instance**.
 3. **Name**: `dbhost`
 4. **AMI**: Select **Amazon Linux 2**
-5. **Instance Type**: `t3.micro`
+5. **Instance Type**: `t2.micro`
 6. **Key Pair**: Create a new key pair  
-   - Name: `dbkey`  
+   - Name: `dbkeypair`  
    - Type: RSA  
    - Format: `.pem`
 7. **Network Settings** → Click **Edit**
